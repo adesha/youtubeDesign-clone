@@ -20,10 +20,10 @@ function Header() {
       <Search className='header-inputButton'/>
       </div>
       <div className='header-right'>
-      <VideoCall/>
-      <Apps/>
-      <Notifications/>
-      <Avatar src={profilePhoto} alt='Adesha'/>
+      <VideoCall className='header-icon'/>
+      <Apps className='header-icon'/>
+      <Notifications className='header-icon'/>
+      <Avatar className='header-icon' src={profilePhoto} alt='Adesha'/>
       </div>
     </div>
   )
